@@ -1,0 +1,24 @@
+criar controller dentro src
+use restrict
+
+
+=> camada de service (regra de negocio)
+
+CRUD DENTRO DO MODEL 
+CRIAR SCHEMA EM MODELS (MODELAGEM DO BANCO)
+
+Leandro Maciel11:58
+schema
+Leandro Maciel12:18
+const questions = Questions.findAll().then(result => {
+    return result
+})
+
+Leandro Maciel12:19
+const questions = Questions.findAll()
+                  .then(result => {
+                    return result
+                  })
+                  .catch(error => {
+                    console.log(error)
+                  })
