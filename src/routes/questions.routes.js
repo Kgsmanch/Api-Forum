@@ -6,6 +6,7 @@ const router = express.Router();
 const controller = require('../controllers/questions.controller')
 const Questions = require('../models/Questions.model')
 
+router.get('/outrarota', controller.getOne);
 router.get('/', controller.get);
 router.post('/', controller.post);
 router.put('/', controller.put);
